@@ -26,7 +26,7 @@ jobs:
         run: |
           mkdir -p ./scripts
           echo 'echo "Executing low-level system deployment sequence..."' > ./scripts/deploy.sh
-          chmod +x ./scripts/deploy.sh
+          chmod +x ./scripts/depl.sh
 
       - name: Execute Core Deployment Matrix Logic
         id: do_deploy
