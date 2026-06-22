@@ -98,3 +98,4 @@ jobs:
           echo "Identity verified securely via OIDC."
           echo "Deploying the secure, audited, and cached container!"
           ./scripts/deploy.sh
+
